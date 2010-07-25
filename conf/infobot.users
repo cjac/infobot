@@ -1,0 +1,116 @@
+#
+# User File (c) 1998 Infobot & Associates
+#
+# FLAGS
+# ----------------------
+# i   Ignored Flag
+# f   MLF Usage Allowed
+# t   Teaching Allowed
+# r   Removing Allowed
+# m   Modifying Allowed
+# c   Part/Join Allowed
+# s   Searching Allowed (possibly computationally expensive)
+# S   user can make bot Say things
+# e   Extra Privs        [ not implemented robustly: AVOID ]
+# p   oP on channel by public request
+# ----------------------
+# o   Owner Flag
+# ----------------------
+#
+# recommended default user flags: +trmc
+
+UserEntry default {
+	flags +trm;
+}
+
+# here's an example entry
+
+# UserEntry dagbrown {
+#     name "Dave Brown";
+#     title "God";
+#     flags +trmcs;
+#     mask *!*@*;
+# }
+
+UserEntry cj {
+  Name "C.J. Adams-Collier";
+  title "Some Guy";
+  flags +trmcso;
+#  mask n=cjcollie@unaffiliated/daman/x-0000001;
+}
+
+UserEntry SimonRaven {
+  Name "Simon Raven";
+  title "Master";
+  flags +trmcso;
+  mask *!*simon@*simonrvn;
+}
+
+UserEntry trappist {
+  Name "Rocco Stanzione";
+  title "Master";
+  flags +trmcso;
+  mask i=trappist@tra.ppi.st;
+}
+
+UserEntry danieldg {
+  Name "Daniel De Graaf";
+  title "Master";
+  flags +trmcso;
+  mask n=me@about/networking/240.0.0.0/danieldg;
+}
+
+UserEntry bhearsum {
+  title "Master";
+  flags +trmcso;
+  mask n=bhearsum@durhamlug/pdpc.basic.bhearsum;
+}
+
+UserEntry Klatu {
+  Name "Rich Sahlender";
+  title "Master";
+  flags +trmcso;
+  mask i=rsahlen@freenode/senior-staff-emeritus/klatu;
+}
+
+UserEntry i2wild {
+  Name "thedge";
+  title "Master";
+  flags +trmcso;
+  mask n=i2wild@pdpc/supporter/active/i2wild;
+}
+
+nonix4 {
+  title "Master";
+  flags +trmcso;
+  mask n=iheino@power11.adsl.netsonic.fi;
+}
+
+Ober {
+  Name "ober";
+  title "Master";
+  flags +trmcso;
+  mask n=ober@67.79.5.182;
+}
+
+UserEntry oznoid {
+	name  "Kevin A. Lenzo";
+	title "that guy";
+	flags +trmcs;
+	mask  *!lenzo@*.speech.cs.cmu.edu;
+}
+
+UserEntry ShortWave {
+  name "Bobby Parker";
+  title "#linpeople whiner";
+  flags +trmcso;
+  mask n=ShortWav@ip68-100-108-201.dc.dc.cox.net
+
+UserEntry plonk {
+	name  "Eep Malloy"
+	title "that guy II";
+	flags +trmcs;
+	mask  *!*@*.static.telerama.com
+}
+
+
